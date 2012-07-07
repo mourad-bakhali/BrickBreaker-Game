@@ -1,0 +1,625 @@
+xsi 0600txt 0032
+
+SI_FileInfo { 
+	"BrickBreaker", 
+	"RedouanePC", 
+	"Mon May 07 00:01:47 2012", 
+	"Softimage|XSI Mod Tool version 7.5.203.0", 
+}
+
+SI_Scene { 
+	"FRAMES", 
+	1.000000, 
+	100.000000, 
+	29.970030, 
+}
+
+SI_CoordinateSystem { 
+	1, 
+	0, 
+	1, 
+	0, 
+	2, 
+	5, 
+}
+
+SI_Angle { 
+	0, 
+}
+
+SI_Ambience { 
+	0.200000, 
+	0.200000, 
+	0.200000, 
+}
+
+SI_MaterialLibrary DefaultLib { 
+	2, 
+	XSI_Material Scene_Material { 
+		3, 
+		"surface","Phong",
+		"shadow","Phong",
+		"Photon","Phong",
+		XSI_MaterialInfo { 
+			0, 
+			0, 
+		}
+
+		XSI_Shader Phong { 
+			"Softimage.material-phong.1", 
+			4, 
+			58, 
+			0, 
+			"Name","STRING","Phong",
+			"ambient.red","FLOAT",0.300000,
+			"ambient.green","FLOAT",0.300000,
+			"ambient.blue","FLOAT",0.300000,
+			"ambient.alpha","FLOAT",0.000000,
+			"diffuse.red","FLOAT",0.700000,
+			"diffuse.green","FLOAT",0.700000,
+			"diffuse.blue","FLOAT",0.700000,
+			"diffuse.alpha","FLOAT",0.000000,
+			"specular.red","FLOAT",1.000000,
+			"specular.green","FLOAT",1.000000,
+			"specular.blue","FLOAT",1.000000,
+			"specular.alpha","FLOAT",0.000000,
+			"ambience.red","FLOAT",0.200000,
+			"ambience.green","FLOAT",0.200000,
+			"ambience.blue","FLOAT",0.200000,
+			"ambience.alpha","FLOAT",1.000000,
+			"shiny","FLOAT",50.000000,
+			"transparency.red","FLOAT",0.000000,
+			"transparency.green","FLOAT",0.000000,
+			"transparency.blue","FLOAT",0.000000,
+			"transparency.alpha","FLOAT",0.000000,
+			"trans_glossy","FLOAT",0.000000,
+			"transparent_samples","INTEGER",0,
+			"reflectivity.red","FLOAT",0.000000,
+			"reflectivity.green","FLOAT",0.000000,
+			"reflectivity.blue","FLOAT",0.000000,
+			"reflectivity.alpha","FLOAT",0.000000,
+			"reflect_glossy","FLOAT",0.000000,
+			"reflect_samples","INTEGER",0,
+			"index_of_refraction","FLOAT",1.000000,
+			"translucency","FLOAT",0.000000,
+			"incandescence.red","FLOAT",1.000000,
+			"incandescence.green","FLOAT",1.000000,
+			"incandescence.blue","FLOAT",1.000000,
+			"incandescence.alpha","FLOAT",0.000000,
+			"inc_inten","FLOAT",0.000000,
+			"bump.x","FLOAT",0.000000,
+			"bump.y","FLOAT",0.000000,
+			"bump.z","FLOAT",0.000000,
+			"notrace","BOOLEAN",0,
+			"diffuse_inuse","BOOLEAN",1,
+			"specular_inuse","BOOLEAN",1,
+			"reflect_inuse","BOOLEAN",1,
+			"refract_inuse","BOOLEAN",1,
+			"incand_inuse","BOOLEAN",1,
+			"translucent_inuse","BOOLEAN",1,
+			"radiance.red","FLOAT",1.000000,
+			"radiance.green","FLOAT",1.000000,
+			"radiance.blue","FLOAT",1.000000,
+			"radiance.alpha","FLOAT",1.000000,
+			"radiance_filter","BOOLEAN",1,
+			"scaletrans","FLOAT",1.000000,
+			"inverttrans","BOOLEAN",0,
+			"usealphatrans","BOOLEAN",0,
+			"scalerefl","FLOAT",1.000000,
+			"invertrefl","BOOLEAN",0,
+			"usealpharefl","BOOLEAN",0,
+		}
+
+	}
+
+	XSI_Material Arrow_MTR { 
+		3, 
+		"surface","Phong_Preset",
+		"shadow","Phong_Preset",
+		"Photon","Phong_Preset",
+		XSI_MaterialInfo { 
+			0, 
+			0, 
+		}
+
+		XSI_Shader Phong_Preset { 
+			"Softimage.material-phong.1", 
+			4, 
+			54, 
+			1, 
+			"Name","STRING","Phong_Preset",
+			"ambient.red","FLOAT",0.300000,
+			"ambient.green","FLOAT",0.300000,
+			"ambient.blue","FLOAT",0.300000,
+			"ambient.alpha","FLOAT",0.000000,
+			"specular.red","FLOAT",1.000000,
+			"specular.green","FLOAT",1.000000,
+			"specular.blue","FLOAT",1.000000,
+			"specular.alpha","FLOAT",0.000000,
+			"ambience.red","FLOAT",0.200000,
+			"ambience.green","FLOAT",0.200000,
+			"ambience.blue","FLOAT",0.200000,
+			"ambience.alpha","FLOAT",1.000000,
+			"shiny","FLOAT",50.000000,
+			"transparency.red","FLOAT",0.000000,
+			"transparency.green","FLOAT",0.000000,
+			"transparency.blue","FLOAT",0.000000,
+			"transparency.alpha","FLOAT",0.000000,
+			"trans_glossy","FLOAT",0.000000,
+			"transparent_samples","INTEGER",0,
+			"reflectivity.red","FLOAT",0.000000,
+			"reflectivity.green","FLOAT",0.000000,
+			"reflectivity.blue","FLOAT",0.000000,
+			"reflectivity.alpha","FLOAT",0.000000,
+			"reflect_glossy","FLOAT",0.000000,
+			"reflect_samples","INTEGER",0,
+			"index_of_refraction","FLOAT",1.000000,
+			"translucency","FLOAT",0.000000,
+			"incandescence.red","FLOAT",1.000000,
+			"incandescence.green","FLOAT",1.000000,
+			"incandescence.blue","FLOAT",1.000000,
+			"incandescence.alpha","FLOAT",0.000000,
+			"inc_inten","FLOAT",0.000000,
+			"bump.x","FLOAT",0.000000,
+			"bump.y","FLOAT",0.000000,
+			"bump.z","FLOAT",0.000000,
+			"notrace","BOOLEAN",0,
+			"diffuse_inuse","BOOLEAN",1,
+			"specular_inuse","BOOLEAN",1,
+			"reflect_inuse","BOOLEAN",1,
+			"refract_inuse","BOOLEAN",1,
+			"incand_inuse","BOOLEAN",1,
+			"translucent_inuse","BOOLEAN",1,
+			"radiance.red","FLOAT",1.000000,
+			"radiance.green","FLOAT",1.000000,
+			"radiance.blue","FLOAT",1.000000,
+			"radiance.alpha","FLOAT",1.000000,
+			"radiance_filter","BOOLEAN",1,
+			"scaletrans","FLOAT",1.000000,
+			"inverttrans","BOOLEAN",0,
+			"usealphatrans","BOOLEAN",0,
+			"scalerefl","FLOAT",1.000000,
+			"invertrefl","BOOLEAN",0,
+			"usealpharefl","BOOLEAN",0,
+			"diffuse","Image","SHADER",
+		}
+
+		XSI_Shader Image { 
+			"Softimage.txt2d-image-explicit.1", 
+			4, 
+			30, 
+			1, 
+			"Name","STRING","Image",
+			"tspace_id","STRING","",
+			"repeats.x","FLOAT",1.000000,
+			"repeats.y","FLOAT",1.000000,
+			"repeats.z","FLOAT",1.000000,
+			"alt_x","BOOLEAN",0,
+			"alt_y","BOOLEAN",0,
+			"alt_z","BOOLEAN",0,
+			"min.x","FLOAT",0.000000,
+			"min.y","FLOAT",0.000000,
+			"min.z","FLOAT",0.000000,
+			"max.x","FLOAT",1.000000,
+			"max.y","FLOAT",1.000000,
+			"max.z","FLOAT",1.000000,
+			"step.x","FLOAT",0.001000,
+			"step.y","FLOAT",0.001000,
+			"step.z","FLOAT",0.001000,
+			"factor","FLOAT",5.000000,
+			"torus_u","BOOLEAN",0,
+			"torus_v","BOOLEAN",0,
+			"alpha","BOOLEAN",0,
+			"bump_inuse","BOOLEAN",0,
+			"alpha_output","BOOLEAN",0,
+			"alpha_factor","FLOAT",1.000000,
+			"eccmax","FLOAT",20.000000,
+			"maxminor","FLOAT",16.000000,
+			"disc_r","FLOAT",0.300000,
+			"bilinear","BOOLEAN",1,
+			"filtered","BOOLEAN",0,
+			"bump_filtered","BOOLEAN",0,
+			"tex","radar_png","IMAGE",
+			XSI_ShaderInstanceData { 
+				"Arrow_MSH", 
+				1, 
+				"tspace_id","STRING","",
+			}
+
+		}
+
+	}
+
+}
+
+XSI_ImageLibrary { 
+	1, 
+	XSI_Image radar_png { 
+		"..\\Textures\\radar.png", 
+		512, 
+		512, 
+		4, 
+		0, 
+		0.000000, 
+		1.000000, 
+		0.000000, 
+		1.000000, 
+		0.000000, 
+		0, 
+		0, 
+		0, 
+		XSI_ImageFX { 
+			0.000000, 
+			100.000000, 
+			100.000000, 
+			0.000000, 
+			0.000000, 
+			1.000000, 
+			0, 
+			1, 
+			0.250000, 
+			0.250000, 
+			0, 
+			0, 
+			0, 
+			0, 
+		}
+
+		XSI_ImageFX2 { 
+			0.000000, 
+			2.200000, 
+			0, 
+			"Linear", 
+			2.200000, 
+			0, 
+			0, 
+			1.000000, 
+			1024, 
+			0, 
+			9729, 
+			9729, 
+			0, 
+			0, 
+		}
+
+		XSI_TimeControl { 
+			0.000000, 
+			0.000000, 
+			0.000000, 
+			1.000000, 
+			XSI_Extrapolation Before { 
+				"HOLD", 
+				0.000000, 
+			}
+
+			XSI_Extrapolation After { 
+				"HOLD", 
+				0.000000, 
+			}
+
+		}
+
+	}
+
+}
+
+SI_Model MDL-Arrow_MDL { 
+	SI_Visibility { 
+		1, 
+	}
+
+	XSI_Transform { 
+		0.000000, 
+		0.000000, 
+		0.000000, 
+		0.000000, 
+		0.000000, 
+		0.000000, 
+		"XYZ", 
+		1.000000, 
+		1.000000, 
+		1.000000, 
+		1, 
+		0.000000, 
+		0.000000, 
+		0.000000, 
+		0.000000, 
+		0.000000, 
+		0.000000, 
+		0.000000, 
+		0.000000, 
+		0.000000, 
+		1.000000, 
+		1.000000, 
+		1.000000, 
+		0.000000, 
+		0.000000, 
+		0.000000, 
+		0.000000, 
+		0.000000, 
+		0.000000, 
+		1.000000, 
+		1.000000, 
+		1.000000, 
+		1.000000, 
+		1.000000, 
+		1.000000, 
+		0.000000, 
+		0.000000, 
+		0.000000, 
+		0.000000, 
+		0.000000, 
+		0.000000, 
+		0.000000, 
+		0.000000, 
+		0.000000, 
+		XSI_Limit { 
+			"posx", 
+			0, 
+			0.000000, 
+			0, 
+			0.000000, 
+		}
+
+		XSI_Limit { 
+			"posy", 
+			0, 
+			0.000000, 
+			0, 
+			0.000000, 
+		}
+
+		XSI_Limit { 
+			"posz", 
+			0, 
+			0.000000, 
+			0, 
+			0.000000, 
+		}
+
+		XSI_Limit { 
+			"rotx", 
+			0, 
+			0.000000, 
+			0, 
+			0.000000, 
+		}
+
+		XSI_Limit { 
+			"roty", 
+			0, 
+			0.000000, 
+			0, 
+			0.000000, 
+		}
+
+		XSI_Limit { 
+			"rotz", 
+			0, 
+			0.000000, 
+			0, 
+			0.000000, 
+		}
+
+	}
+
+	SI_GlobalMaterial { 
+		"Scene_Material", 
+		"NODE", 
+	}
+
+	XSI_CustomPSet XNA_Asset { 
+		"NODE", 
+		"XNA_Asset", 
+		1,
+		"AssetPath","Text","G:\\Mourad Projects\\PlutoEngine\\BrickBreaker\\Content\\Models\\Radar.xsi", 
+	}
+
+	SI_Model MDL-Arrow_MSH { 
+		SI_Visibility { 
+			1, 
+		}
+
+		XSI_Transform { 
+			0.000000, 
+			0.000000, 
+			0.000000, 
+			0.000000, 
+			0.000000, 
+			0.000000, 
+			"XYZ", 
+			1.000000, 
+			1.000000, 
+			1.000000, 
+			1, 
+			0.000000, 
+			0.000000, 
+			0.000000, 
+			0.000000, 
+			0.000000, 
+			0.000000, 
+			0.000000, 
+			0.000000, 
+			0.000000, 
+			1.000000, 
+			1.000000, 
+			1.000000, 
+			0.000000, 
+			0.000000, 
+			0.000000, 
+			0.000000, 
+			0.000000, 
+			0.000000, 
+			1.000000, 
+			1.000000, 
+			1.000000, 
+			1.000000, 
+			1.000000, 
+			1.000000, 
+			0.000000, 
+			0.000000, 
+			0.000000, 
+			0.000000, 
+			0.000000, 
+			0.000000, 
+			0.000000, 
+			0.000000, 
+			0.000000, 
+			XSI_Limit { 
+				"posx", 
+				0, 
+				0.000000, 
+				0, 
+				0.000000, 
+			}
+
+			XSI_Limit { 
+				"posy", 
+				0, 
+				0.000000, 
+				0, 
+				0.000000, 
+			}
+
+			XSI_Limit { 
+				"posz", 
+				0, 
+				0.000000, 
+				0, 
+				0.000000, 
+			}
+
+			XSI_Limit { 
+				"rotx", 
+				0, 
+				0.000000, 
+				0, 
+				0.000000, 
+			}
+
+			XSI_Limit { 
+				"roty", 
+				0, 
+				0.000000, 
+				0, 
+				0.000000, 
+			}
+
+			XSI_Limit { 
+				"rotz", 
+				0, 
+				0.000000, 
+				0, 
+				0.000000, 
+			}
+
+		}
+
+		XSI_Mesh MSH-Arrow_MSH { 
+			XSI_Shape SHP-Arrow_MSH { 
+				"ORDERED", 
+				XSI_SubComponentAttributeList position { 
+					"POSITION", 
+					"FLOAT3", 
+					8, 
+
+					1.000000,0.000000,-0.807269,
+					-0.788192,0.000000,-1.000000,
+					0.795162,0.000000,-1.000000,
+					-1.000000,0.000000,-0.791454,
+					-0.724403,0.000000,1.000000,
+					1.000000,0.000000,0.773540,
+					-1.000000,0.000000,0.793181,
+					0.727585,0.000000,1.000000,
+				}
+
+				XSI_SubComponentAttributeList XSINormal { 
+					"NORMAL", 
+					"FLOAT3", 
+					8, 
+
+					0.000000,1.000000,0.000000,
+					0.000000,1.000000,0.000000,
+					0.000000,1.000000,0.000000,
+					0.000000,1.000000,0.000000,
+					0.000000,1.000000,0.000000,
+					0.000000,1.000000,0.000000,
+					0.000000,1.000000,0.000000,
+					0.000000,1.000000,0.000000,
+				}
+
+				XSI_SubComponentAttributeList Texture_Projection { 
+					"TEXCOORD", 
+					"FLOAT2", 
+					8, 
+
+					0.964194,0.891531,
+					0.021491,0.855380,
+					0.122843,1.000000,
+					0.848156,0.000000,
+					0.153367,0.000000,
+					0.021491,0.159895,
+					0.880492,1.000000,
+					0.975784,0.169716,
+				}
+
+			}
+
+			XSI_VertexList { 
+				1, 
+				"position",
+				8, 
+
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+			}
+
+			XSI_TriangleList TriList00 { 
+				2, 
+				"XSINormal","Texture_Projection",
+				"Arrow_MTR", 
+				6, 
+
+				6,5,5,
+				4,4,4,
+				7,3,3,
+
+				6,5,5,
+				7,3,3,
+				5,7,7,
+
+				6,5,5,
+				5,7,7,
+				0,0,0,
+
+				6,5,5,
+				0,0,0,
+				2,6,6,
+
+				6,5,5,
+				2,6,6,
+				1,2,2,
+
+				6,5,5,
+				1,2,2,
+				3,1,1,
+
+			}
+
+		}
+
+		SI_GlobalMaterial { 
+			"Arrow_MTR", 
+			"NODE", 
+		}
+
+	}
+
+}
+
